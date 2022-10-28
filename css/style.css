@@ -514,6 +514,10 @@ mark,
   margin-bottom: 1rem;
   font-size: 1.25rem;
 }
+img#logo{
+  height: 20rem;
+  width: 20rem;
+}
 
 .blockquote-footer {
   display: block;
@@ -610,12 +614,14 @@ pre code {
     max-width: 540px;
   }
 
+
 }
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
     max-width: 720px;
   }
+  
 }
 
 @media (min-width: 992px) {
@@ -2324,6 +2330,7 @@ textarea.form-control {
   .form-inline .custom-control-label {
     margin-bottom: 0;
   }
+
 }
 
 .btn {
