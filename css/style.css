@@ -231,6 +231,9 @@ button:focus {
   outline: 1px dotted;
   outline: 5px auto -webkit-focus-ring-color;
 }
+div.ml-6{
+  margin-left: 6rem;
+}
 
 input,
 button,
@@ -312,6 +315,7 @@ legend {
   color: inherit;
   white-space: normal;
 }
+
 
 @media (max-width: 1200px) {
   legend {
@@ -516,7 +520,7 @@ mark,
 }
 img#logo{
   height: 20rem;
-  width: 20rem;
+  width: 23rem;
 }
 
 .blockquote-footer {
@@ -1836,6 +1840,9 @@ pre code {
   }
   h3.text-white.text-uppercase{
     font-size: .73rem;
+  }
+  iframe#video{
+    width: 21rem;
   }
 }
 
