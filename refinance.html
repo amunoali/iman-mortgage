@@ -214,11 +214,15 @@
                     <div class="g-recaptcha" data-sitekey="6LfyI8giAAAAAIovro7qifZ-_FwlPiQZO9FF-KEW"></div>
                 <h5 class="text-white text-uppercase mb-4 mt-5" style="letter-spacing: 5px;">Contact Us</h5>
                 <p>If you have any questions, please submit the form below</p>
-                <input type="text" name="name" class="form-control border-light mb-3" placeholder="Full Name">
-                <input type="email" name="email" class="form-control border-light mb-3" placeholder="Your Email">
-                <input type="text" name="message" class="form-control border-light mb-3" placeholder="Your Message" style="height:150px;">
+                
+                <input type="text" name="name" class="form-control border-light mb-3" placeholder=" Full Name""
+                required="required" data-validation-required-message="Please enter Full Name" >
+                <input type="email" name="email" class="form-control border-light mb-3" placeholder="Email"
+                required="required" data-validation-required-message="Please enter your Email">
+                <input type="text" name="message" class="form-control border-light mb-3" placeholder="Message"
+                required="required"
+                data-validation-required-message="Please enter your message" style="height:150px;">
                 <button type="submit" class="btn btn-primary px-3">Submit</button>
-            
         </form>
         <img src="https://www.verandatexas.com/uploads/images/FHEOwhite.png" class="mt-4" style="height: 5rem; width: 7rem;">
     </div>    
